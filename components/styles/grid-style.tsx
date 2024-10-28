@@ -1,4 +1,4 @@
-interface GridLaoutProps {
+interface GridLayoutProps {
   children: React.ReactNode;
 }
 
