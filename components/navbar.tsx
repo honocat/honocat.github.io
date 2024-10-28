@@ -61,7 +61,7 @@ export default function Navbar(): JSX.Element {
               Contact
             </LinkItem>
             <LinkItem
-              href="https://github.com/honoka-nakano/honocat-github.io/"
+              href="https://github.com/honocat/honocat.github.io/"
               path={path}
             >
               <div className="flex h-fit items-center space-x-1">
