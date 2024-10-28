@@ -20,6 +20,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Keisuke Nakano - homepage",
   description: "Keisuke's personal website",
+  icons: {
+    icon: "/images/favicon.ico",
+  },
 };
 
 export default function RootLayout({
