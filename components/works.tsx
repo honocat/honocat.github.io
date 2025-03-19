@@ -1,6 +1,7 @@
 import Work from "@/components/work";
-import { works } from "@/data/works";
+import { works, reactApps } from "@/data/works";
 
+import { Heading } from "@/components/styles/heading";
 import { GridLayout } from "@/components/styles/grid-style";
 
 interface WorkType {
@@ -12,14 +13,27 @@ interface WorkType {
 
 export default function Works(): JSX.Element {
   return (
-    <GridLayout>
-      {works.map(
-        (work: WorkType, index: number): JSX.Element => (
-          <Work key={index} name={work.name} src={work.src} href={work.href}>
-            {work.description}
-          </Work>
-        ),
-      )}
-    </GridLayout>
+    <div className="space-y-8">
+      <GridLayout>
+        {works.map(
+          (work: WorkType, index: number): JSX.Element => (
+            <Work key={index} name={work.name} src={work.src} href={work.href}>
+              {work.description}
+            </Work>
+          )
+        )}
+      </GridLayout>
+
+      <Heading variant="h2">100 React Apps</Heading>
+      <GridLayout>
+        {reactApps.map(
+          (app: WorkType, index: number): JSX.Element => (
+            <Work key={index} name={app.name} src={app.src} href={app.href}>
+              {app.description}
+            </Work>
+          )
+        )}
+      </GridLayout>
+    </div>
   );
 }

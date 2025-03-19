@@ -13,3 +13,12 @@ export const works = [
     description: "Web teaching materials to learn machine learning with R",
   },
 ];
+
+export const reactApps = [
+  {
+    name: "Password Generator",
+    src: "/images/works/apps/passwordGenerator.png",
+    href: "https://honocat.github.io/100-react-apps/password-generator/",
+    description: "Generating safty password.",
+  },
+];

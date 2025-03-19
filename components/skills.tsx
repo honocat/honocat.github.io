@@ -5,10 +5,10 @@ import {
   Skill,
 } from "@/components/styles/skill-section";
 
-import { FaJava, FaPython, FaGolang, FaGitAlt } from "react-icons/fa6";
+import { FaJava, FaReact, FaGolang, FaGitAlt } from "react-icons/fa6";
 import {
   SiNextdotjs,
-  SiFlask,
+  SiHono,
   SiGithub,
   SiAwslambda,
   SiAmazonapigateway,
@@ -31,14 +31,14 @@ export function FavTeches(): JSX.Element {
         <Skill name="TypeScript">
           <SiTypescript size={40} className="mx-auto" />
         </Skill>
-        <Skill name="Python">
-          <FaPython size={40} className="mx-auto" />
+        <Skill name="React">
+          <FaReact size={40} className="mx-auto" />
         </Skill>
         <Skill name="Next.js">
           <SiNextdotjs size={40} className="mx-auto" />
         </Skill>
-        <Skill name="Flask">
-          <SiFlask size={40} className="mx-auto" />
+        <Skill name="Hono">
+          <SiHono size={40} className="mx-auto" />
         </Skill>
         <Skill name="R lang">
           <SiR size={40} className="mx-auto" />
