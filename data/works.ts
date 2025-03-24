@@ -21,4 +21,10 @@ export const reactApps = [
     href: "https://honocat.github.io/100-react-apps/password-generator/",
     description: "Generating safty password.",
   },
+  {
+    name: "Task Management App",
+    src: "/images/works/apps/taskManagementApp.png",
+    href: "https://honocat.github.io/100-react-apps/task-management-app/",
+    description: "Let's management your tasks.",
+  },
 ];
